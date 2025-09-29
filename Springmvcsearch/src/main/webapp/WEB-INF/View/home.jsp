@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@page isELIgnored="false" %>
 <!doctype html>
 <html lang="en">
@@ -12,11 +13,15 @@
   <body>
   <div class="container" style="margin-top:150px;">
   
-  <div class="card mx-auto mt-5 bg-secondary " style="width:80%;" >
+  <div class="card mx-auto mt-3 bg-secondary " style="width:80%;" >
   <div class="card-body">
+  <div style="text-align:center;">
+  <img  alt="image" src="<c:url value="/resources/images/logo.jpg"/>" width="200" 
+     height="150" />
+ </div>
   <h1 class="text-center">Search Here!</h1>
   <form action="search">
-  <div class="form-group mt-5">
+  <div class="form-group mt-3">
   <input type="text" name="querybox"
   placeholder="Enter your keyword" class="form-control"/>
   </div>
