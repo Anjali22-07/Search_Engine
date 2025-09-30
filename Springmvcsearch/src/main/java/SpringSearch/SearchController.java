@@ -15,9 +15,9 @@ public class SearchController {
 	public String home() {
 		
 		System.out.print("This is home Page");
-		String s=null;
-		System.out.print(s.length());
-		
+//		String s=null;
+//		System.out.print(s.length());
+//		
 		return "home";
 	}
 	
